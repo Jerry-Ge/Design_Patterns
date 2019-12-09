@@ -1,5 +1,9 @@
 # Observer Pattern
 
+## Video Tutorial Link: 
+
+- [Click Here](https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4)
+
 ## For each pattern, we have few question need to be asked?
 - What's the name?
     - Observer 
