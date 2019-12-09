@@ -1,23 +1,25 @@
-# Observer Pattern
+# Decorator Pattern
 
 ## Video Tutorial Link: 
 
-- [Click Here](https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4)
+- [Click Here](https://www.youtube.com/watch?v=j40kRwSm4VE&list=PLF206E906175C7E07&index=11)
 
 ## For each pattern, we have few question need to be asked?
 - What's the name?
-    - Observer 
+    - Decorator
 - When to apply this pattern?
-    - When you need many other objects to receive an update when another object changes
-        - E.g. Stock market with thousands of stocks need to send updates to objects representing individual stocks
-        - E.g. The Subject (publisher) sends many stocks to the Observers
-        - E.g. The Observers (subscribers) takes the ones they want and use them  
+    - Allows you to modify an object dynamically
+    - You would use it when you want the capabilities of inheritance with subclasses, but you need to add 
+    functionalities at runtime
+    - It is more flexible than inheritance 
+    - Simplifies code because you add functionality using many simple classes
+    - Rather than rewrite old code, you can extend with new code
 - What's the solution? (Example Code)
 
 
 ## Advantages
-- Loose Coupling: The subject (publisher) doesn't need to know anything about the Observers(subscribers)
+-
 
 ## Disadvantages:
-- The Subject(publisher) may send updates that don't matter to the Observer(subscriber)
+- 
 
